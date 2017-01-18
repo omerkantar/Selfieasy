@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173838961E22BD6A00F0BB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173838951E22BD6A00F0BB2C /* AppDelegate.swift */; };
+		1738389D1E22BD6C00F0BB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1738389C1E22BD6C00F0BB2C /* Assets.xcassets */; };
+		173838A01E22BD6D00F0BB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1738389E1E22BD6D00F0BB2C /* LaunchScreen.storyboard */; };
+		173838AB1E22BD7600F0BB2C /* SelfieasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173838AA1E22BD7600F0BB2C /* SelfieasyTests.swift */; };
+		173838B61E22BD7600F0BB2C /* SelfieasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173838B51E22BD7600F0BB2C /* SelfieasyUITests.swift */; };
+		1787832E1E2FFFC6009D6187 /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787832C1E2FFFC6009D6187 /* MainContainerViewController.swift */; };
+		1787832F1E2FFFC6009D6187 /* MainContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1787832D1E2FFFC6009D6187 /* MainContainerViewController.xib */; };
+		178783311E2FFFED009D6187 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178783301E2FFFED009D6187 /* CameraViewController.swift */; };
+		178783331E30002B009D6187 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178783321E30002B009D6187 /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173838A71E22BD7600F0BB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1738388A1E22BD6900F0BB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173838911E22BD6900F0BB2C;
+			remoteInfo = Selfieasy;
+		};
+		173838B21E22BD7600F0BB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1738388A1E22BD6900F0BB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173838911E22BD6900F0BB2C;
+			remoteInfo = Selfieasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		173838921E22BD6A00F0BB2C /* Selfieasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfieasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		173838951E22BD6A00F0BB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1738389C1E22BD6C00F0BB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1738389F1E22BD6D00F0BB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		173838A11E22BD6D00F0BB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173838A61E22BD7600F0BB2C /* SelfieasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173838AA1E22BD7600F0BB2C /* SelfieasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieasyTests.swift; sourceTree = "<group>"; };
+		173838AC1E22BD7600F0BB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173838B11E22BD7600F0BB2C /* SelfieasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173838B51E22BD7600F0BB2C /* SelfieasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieasyUITests.swift; sourceTree = "<group>"; };
+		173838B71E22BD7600F0BB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1787832C1E2FFFC6009D6187 /* MainContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
+		1787832D1E2FFFC6009D6187 /* MainContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainContainerViewController.xib; sourceTree = "<group>"; };
+		178783301E2FFFED009D6187 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		178783321E30002B009D6187 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1738388F1E22BD6900F0BB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173838A31E22BD7600F0BB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173838AE1E22BD7600F0BB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173838891E22BD6900F0BB2C = {
+			isa = PBXGroup;
+			children = (
+				173838941E22BD6A00F0BB2C /* Selfieasy */,
+				173838A91E22BD7600F0BB2C /* SelfieasyTests */,
+				173838B41E22BD7600F0BB2C /* SelfieasyUITests */,
+				173838931E22BD6A00F0BB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		173838931E22BD6A00F0BB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173838921E22BD6A00F0BB2C /* Selfieasy.app */,
+				173838A61E22BD7600F0BB2C /* SelfieasyTests.xctest */,
+				173838B11E22BD7600F0BB2C /* SelfieasyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173838941E22BD6A00F0BB2C /* Selfieasy */ = {
+			isa = PBXGroup;
+			children = (
+				1787832B1E2FFF99009D6187 /* Classses */,
+				1787832A1E2FFF92009D6187 /* Views */,
+				178783291E2FFF88009D6187 /* ViewControllers */,
+				173838951E22BD6A00F0BB2C /* AppDelegate.swift */,
+				1738389C1E22BD6C00F0BB2C /* Assets.xcassets */,
+				1738389E1E22BD6D00F0BB2C /* LaunchScreen.storyboard */,
+				173838A11E22BD6D00F0BB2C /* Info.plist */,
+			);
+			path = Selfieasy;
+			sourceTree = "<group>";
+		};
+		173838A91E22BD7600F0BB2C /* SelfieasyTests */ = {
+			isa = PBXGroup;
+			children = (
+				173838AA1E22BD7600F0BB2C /* SelfieasyTests.swift */,
+				173838AC1E22BD7600F0BB2C /* Info.plist */,
+			);
+			path = SelfieasyTests;
+			sourceTree = "<group>";
+		};
+		173838B41E22BD7600F0BB2C /* SelfieasyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				173838B51E22BD7600F0BB2C /* SelfieasyUITests.swift */,
+				173838B71E22BD7600F0BB2C /* Info.plist */,
+			);
+			path = SelfieasyUITests;
+			sourceTree = "<group>";
+		};
+		178783291E2FFF88009D6187 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1787832C1E2FFFC6009D6187 /* MainContainerViewController.swift */,
+				1787832D1E2FFFC6009D6187 /* MainContainerViewController.xib */,
+				178783301E2FFFED009D6187 /* CameraViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1787832A1E2FFF92009D6187 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				178783321E30002B009D6187 /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1787832B1E2FFF99009D6187 /* Classses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173838911E22BD6900F0BB2C /* Selfieasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173838BA1E22BD7700F0BB2C /* Build configuration list for PBXNativeTarget "Selfieasy" */;
+			buildPhases = (
+				1738388E1E22BD6900F0BB2C /* Sources */,
+				1738388F1E22BD6900F0BB2C /* Frameworks */,
+				173838901E22BD6900F0BB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Selfieasy;
+			productName = Selfieasy;
+			productReference = 173838921E22BD6A00F0BB2C /* Selfieasy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173838A51E22BD7600F0BB2C /* SelfieasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173838BD1E22BD7700F0BB2C /* Build configuration list for PBXNativeTarget "SelfieasyTests" */;
+			buildPhases = (
+				173838A21E22BD7600F0BB2C /* Sources */,
+				173838A31E22BD7600F0BB2C /* Frameworks */,
+				173838A41E22BD7600F0BB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173838A81E22BD7600F0BB2C /* PBXTargetDependency */,
+			);
+			name = SelfieasyTests;
+			productName = SelfieasyTests;
+			productReference = 173838A61E22BD7600F0BB2C /* SelfieasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		173838B01E22BD7600F0BB2C /* SelfieasyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173838C01E22BD7700F0BB2C /* Build configuration list for PBXNativeTarget "SelfieasyUITests" */;
+			buildPhases = (
+				173838AD1E22BD7600F0BB2C /* Sources */,
+				173838AE1E22BD7600F0BB2C /* Frameworks */,
+				173838AF1E22BD7600F0BB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173838B31E22BD7600F0BB2C /* PBXTargetDependency */,
+			);
+			name = SelfieasyUITests;
+			productName = SelfieasyUITests;
+			productReference = 173838B11E22BD7600F0BB2C /* SelfieasyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1738388A1E22BD6900F0BB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = omer;
+				TargetAttributes = {
+					173838911E22BD6900F0BB2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FARN5VBHLK;
+						ProvisioningStyle = Automatic;
+					};
+					173838A51E22BD7600F0BB2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 173838911E22BD6900F0BB2C;
+					};
+					173838B01E22BD7600F0BB2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 173838911E22BD6900F0BB2C;
+					};
+				};
+			};
+			buildConfigurationList = 1738388D1E22BD6900F0BB2C /* Build configuration list for PBXProject "Selfieasy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173838891E22BD6900F0BB2C;
+			productRefGroup = 173838931E22BD6A00F0BB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173838911E22BD6900F0BB2C /* Selfieasy */,
+				173838A51E22BD7600F0BB2C /* SelfieasyTests */,
+				173838B01E22BD7600F0BB2C /* SelfieasyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173838901E22BD6900F0BB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173838A01E22BD6D00F0BB2C /* LaunchScreen.storyboard in Resources */,
+				1787832F1E2FFFC6009D6187 /* MainContainerViewController.xib in Resources */,
+				1738389D1E22BD6C00F0BB2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173838A41E22BD7600F0BB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173838AF1E22BD7600F0BB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1738388E1E22BD6900F0BB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173838961E22BD6A00F0BB2C /* AppDelegate.swift in Sources */,
+				1787832E1E2FFFC6009D6187 /* MainContainerViewController.swift in Sources */,
+				178783311E2FFFED009D6187 /* CameraViewController.swift in Sources */,
+				178783331E30002B009D6187 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173838A21E22BD7600F0BB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173838AB1E22BD7600F0BB2C /* SelfieasyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173838AD1E22BD7600F0BB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173838B61E22BD7600F0BB2C /* SelfieasyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173838A81E22BD7600F0BB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173838911E22BD6900F0BB2C /* Selfieasy */;
+			targetProxy = 173838A71E22BD7600F0BB2C /* PBXContainerItemProxy */;
+		};
+		173838B31E22BD7600F0BB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173838911E22BD6900F0BB2C /* Selfieasy */;
+			targetProxy = 173838B21E22BD7600F0BB2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1738389E1E22BD6D00F0BB2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1738389F1E22BD6D00F0BB2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173838B81E22BD7700F0BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		173838B91E22BD7700F0BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173838BB1E22BD7700F0BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FARN5VBHLK;
+				INFOPLIST_FILE = Selfieasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omer.Selfieasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		173838BC1E22BD7700F0BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FARN5VBHLK;
+				INFOPLIST_FILE = Selfieasy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omer.Selfieasy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		173838BE1E22BD7700F0BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SelfieasyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omer.SelfieasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfieasy.app/Selfieasy";
+			};
+			name = Debug;
+		};
+		173838BF1E22BD7700F0BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SelfieasyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omer.SelfieasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Selfieasy.app/Selfieasy";
+			};
+			name = Release;
+		};
+		173838C11E22BD7700F0BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SelfieasyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omer.SelfieasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Selfieasy;
+			};
+			name = Debug;
+		};
+		173838C21E22BD7700F0BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SelfieasyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = omer.SelfieasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Selfieasy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1738388D1E22BD6900F0BB2C /* Build configuration list for PBXProject "Selfieasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173838B81E22BD7700F0BB2C /* Debug */,
+				173838B91E22BD7700F0BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173838BA1E22BD7700F0BB2C /* Build configuration list for PBXNativeTarget "Selfieasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173838BB1E22BD7700F0BB2C /* Debug */,
+				173838BC1E22BD7700F0BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173838BD1E22BD7700F0BB2C /* Build configuration list for PBXNativeTarget "SelfieasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173838BE1E22BD7700F0BB2C /* Debug */,
+				173838BF1E22BD7700F0BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173838C01E22BD7700F0BB2C /* Build configuration list for PBXNativeTarget "SelfieasyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173838C11E22BD7700F0BB2C /* Debug */,
+				173838C21E22BD7700F0BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1738388A1E22BD6900F0BB2C /* Project object */;
+}
